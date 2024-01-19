@@ -206,7 +206,8 @@ const HomePage = (props: Props) => {
         </div>
       </div>
       {loading && <div className='z-50 absolute w-full h-full flex items-center justify-center bg-primary-foreground'>
-        Getting things ready . . . <Rings height={50} color='red' />
+        Getting things ready. . . <br/>
+        Model might take some time to load please wait<Rings height={50} color='red' />
       </div>}
     </div>
   )
